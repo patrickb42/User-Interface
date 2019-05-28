@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	min-width: 900px;
+}
+
+body {
+	position: relative;
+	padding: 20px 50px;
+}
+
+nav {
+	padding-top: 10px;
+}
+nav a {
+	margin: 0 20px;
+	font-size: 15px;
+	color: lightgray;
+	text-decoration: none;
+}
+.logo {
+	position: absolute;
+	/* display: inline-block; */
+	top: 20px;
+	right: 50px;
+}
+
+header {
+	border-bottom: solid black;
+	padding: 50px 0;
+}
+
+header div {
+	display: inline-block;
+	width: 49%;
+}
+#slogan, #outer_image_box {
+	float: left;
+}
+#slogan {
+	padding-top: 30px;
+}
+#slogan_text, #get_started {
+	display: block;
+	margin: 10px auto;
+}
+#slogan h1 {
+	display: block;
+	text-align: center;
+	font-size: 50px;
+}
+#get_started {
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px 0;
+	width: 120px;
+	font-size: 14px;
+}
+#inner_image_box {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+#inner_image_box img {
+	height: 100%;
+	width: 100%;
+}
+
+h6 {
+	font-family: 'Bangers', cursive;
+	font-weight: bold;
+}
+section {
+	margin: 30px 0;
+}
+section div {
+	display: inline-block;
+}
+#section1 div {
+	display: inline-block;
+	width: 49%;
+}
+#section2 div {
+	width: 32%;
+}
+
+footer {
+	border-top: solid black;
+	padding: 30px 0;
+	text-decoration: none;
+}
+#copyright {
+	margin: 30px auto 50px;
+	text-align: center;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
